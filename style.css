@@ -1,0 +1,28 @@
+*{
+margin: 0%;
+padding: 0%;
+}
+.navbar-nav{
+    margin-left: auto;
+}
+.container-fluid{
+    background-color: black;
+    height: 70px;
+}
+.navbar-collapse ul li a{
+    color: antiquewhite;
+}
+.navbar-brand{
+    color: antiquewhite;
+}
+.container-fluid a:hover{
+    color: brown;
+   
+}
+.dropdown ul li a {
+    color: black;
+    text-transform: capitalize;
+}
+.dropdown ul li a:hover{
+    color: brown;
+}
