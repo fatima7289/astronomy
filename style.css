@@ -26,3 +26,15 @@ padding: 0%;
 .dropdown ul li a:hover{
     color: brown;
 }
+.tx1{
+    font-size: large;
+    color:white;
+    font-family: 'Courier New', Courier, monospace;
+    text-transform: uppercase;
+    text-decoration: dotted;
+}
+.carousel-inner .carouselslide{
+  padding: 0%;
+    margin: 0%;
+}
+
