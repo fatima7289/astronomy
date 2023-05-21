@@ -2,21 +2,30 @@
 margin: 0%;
 padding: 0%;
 }
+.imglogo{
+    width: 200px;
+    height: 30px;   
+    margin-left: 50px;
+    margin-bottom: 15px;
+}
 .navbar-nav{
     margin-left: auto;
+    margin-top: 0%;
 }
 .container-fluid{
     background-color: black;
-    height: 70px;
+    height: 80px;
 }
 .navbar-collapse ul li a{
     color: antiquewhite;
+    margin-bottom: 15px;
 }
 .navbar-brand{
     color: antiquewhite;
 }
 .container-fluid a:hover{
-    color: brown;
+    color:#7b768d   
+    ;
    
 }
 .dropdown ul li a {
@@ -33,14 +42,19 @@ padding: 0%;
     text-transform: uppercase;
     text-decoration: dotted;
 }
-.carousel-inner .carouselslide{
-  padding: 0%;
-    margin: 0%;
+.carousel-inner{
+  bottom: 20PX;
+
 }
 marquee{
     font-size: 25px;
-    color: black;
+    color:white;
     padding-top: 12px;
+    background-color:#1c1f28;
+    font-family: sans-serif;
+    height: 60PX;
+    bottom: 60px;
+
 
 }
 .col h1{
@@ -80,5 +94,11 @@ font-size: large;
   background-image: url(./black-texture_1205-327.avif);
   width: 50px;
   height: 50px  ;
+}
+.Hleft{
+    margin-left: 350PX;
+}
+.btn{
+    margin-left: 450px;
 }
 
