@@ -1,43 +1,29 @@
-*{
-margin: 0%;
-padding: 0%;
-}
-.imglogo{
-    width: 200px;
-    height: 30px;   
-    margin-left: 50px;
-    margin-bottom: 15px;
-}
-.navbar-nav{
-    margin-left: auto;
-    margin-top: 0%;
 
+.logo1{
+    width: 150px;
 }
-.container-fluid{
-    background-color: black;
-    /* background-color: transparent; */
 
-    height: 80px;
-}
-.navbar-collapse ul li a{
-    color: antiquewhite;
-    margin-bottom: 15px;
-}
-.navbar-brand{
-    color: antiquewhite;
-}
-.container-fluid a:hover{
-    color:#7b768d   
-    ;
-   
-}
-.dropdown ul li a {
-    color: black;
-    text-transform: capitalize;
-}
-.dropdown ul li a:hover{
-    color: brown;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .tx1{
     font-size: large;
     color:white;
@@ -45,8 +31,8 @@ padding: 0%;
     text-transform: uppercase;
     text-decoration: dotted;
 }
-.carousel-inner{
-  bottom: 20PX;
+/* .carousel-inner{
+  /* bottom: 20PX; */
 
 }
 marquee{
@@ -112,4 +98,4 @@ font-size: large;
     margin-left: 450px;
 }
 
-
+ */
