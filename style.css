@@ -42,7 +42,7 @@ margin-top: 150px;
 
 }
 .nav-link:hover{
-  border-bottom: 2px solid greenyellow;
+  border-bottom: 2px solid rgb(255, 47, 92);
   color: black;
 }
 .dropdown:hover .dropdown-menu{
