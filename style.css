@@ -1,32 +1,57 @@
 
-.img-fluid{
-    width: 300px;
-    margin-bottom: 300px;
-    margin-left: 400px;
+.container-fluid{
+  /* background-image: url(./img/e1870cfee5e05fe14712c92ae9bbadeb.jpg); */
+  /* background-size: cover; */
+  /* height: 100vh; */
 
-}
-.navbar-collapse{
-  margin-left: -550px;
-  margin-bottom: 150px;
-  font-size: larger;
-  font-family: sans-serif;
   
 }
-.container-fluid{
-  background-image: url(./img/e1870cfee5e05fe14712c92ae9bbadeb.jpg );
-  background-size: cover;
-  height: 100vh;
-}
-.navbar-nav a{
-  color: antiquewhite;
-  margin-right: auto;
-}
 .logo1{
-  width: 150px;
-  ;
+width: 50px;
+margin-left: 50%;
+margin-bottom: auto;
+margin-top: 10px;
+
+
+}
+.img-fluid{
+  width: 400px;
+  /* margin-bottom:50px ; */
+  /* margin-left: 50%; */
+  /* margin-left:-100px; */
+  margin-left: -70px;
+  margin-top: 25px;
+
+  
+}
+.navbar-collapse{
+  /* margin-top: 300px; */
+  margin-right: -300px;
+  margin-left: -50%;
+  /* margin-top: 250px; */
+
+  
+}
+.navbar-nav .nav-item {
+/* margin-top: -150px; */
+margin-top: 150px;
+
+}
+.nav-link{
+  transition: all 0.2s;
+
+}
+.nav-link:hover{
+  border-bottom: 2px solid greenyellow;
+  color: black;
+}
+.dropdown:hover .dropdown-menu{
+  display: block;
+  col
 }
 
-
+  
+ 
 
 
 
@@ -53,14 +78,14 @@
     text-transform: uppercase;
     text-decoration: dotted;
 }
-/* .carousel-inner{
+.carousel-inner{
   /* bottom: 20PX; */
-
+ 
 }
-/* .carousel-item img{
+.carousel-item img{
     height: 650px;
-} */
-/* .bigbangtheory{
+ }  
+.bigbangtheory{ 
     height: 400px;
     width: 100%;
    
@@ -106,7 +131,7 @@
     height: 100%;
   }
   .container:hover .overlay2 {
-    height: 100%;
+]    height: 100%;
   }
   
   .text {
@@ -119,7 +144,7 @@
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     text-align: center;
-  } */ 
+   } 
  marquee{
     font-size: 25px;
     color:white;
