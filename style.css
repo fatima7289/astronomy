@@ -1,8 +1,30 @@
 
-.logo1{
-    width: 150px;
-}
+.img-fluid{
+    width: 300px;
+    margin-bottom: 300px;
+    margin-left: 400px;
 
+}
+.navbar-collapse{
+  margin-left: -550px;
+  margin-bottom: 150px;
+  font-size: larger;
+  font-family: sans-serif;
+  
+}
+.container-fluid{
+  background-image: url(./img/e1870cfee5e05fe14712c92ae9bbadeb.jpg );
+  background-size: cover;
+  height: 100vh;
+}
+.navbar-nav a{
+  color: antiquewhite;
+  margin-right: auto;
+}
+.logo1{
+  width: 150px;
+  ;
+}
 
 
 
