@@ -127,8 +127,6 @@ margin-top: 150px;
     font-family: sans-serif;
     height: 60PX;
     bottom: 60px;
-
-
 }
 .evolution{
   background-color: #c7bbbb;
@@ -136,13 +134,14 @@ padding: 0px;
 margin: 0px;
 }
 .PLANETS {
-  background-color: #180a24;
+  background-color: #c7bbbb;
 }
-.PLANETS h1{
-color: #c7bbbb;
-}
+/* .PLANETS h1{
+color: #180a24;
+border: left;
+} */
 .PLANETS h3{
-  color: #c7bbbb;
+  color: #180a24;
 
 }
 .carousel-control-prev{
@@ -177,9 +176,13 @@ font-size: large;
 
 }
 .PLANETS H1{
-    padding-left: 100px;
-    padding-top: 50px;
-
+    padding-left: 10px;
+    /* padding-top: 50px; */
+    border-left: 3px solid #180a24;
+    margin-left: 90px;
+    margin-top: 50px;
+    height: 50px;
+    float: left;
 }
 .b_img1{
   background-image: url(./img/e1870cfee5e05fe14712c92ae9bbadeb.jpg);
