@@ -1,7 +1,10 @@
 *{
   box-sizing: border-box;
-  margin: 0;
-  padding: 0;
+  margin: 0px;
+  padding: 0px;
+}
+.navbar{
+  padding: 0% !important;
 }
 .navbar-brand img{
   width: 100px;
@@ -12,13 +15,13 @@
   width: 150px;
   margin-bottom : 30px;
 }
-  .navbar .container-fluid{
+  /* .navbar .container-fluid{
     flex-direction: column;
-    background-image: url(./img/e1870cfee5e05fe14712c92ae9bbadeb.jpg);
+    background-image: url(./img/pexels-samphan-korwong-6961824-3840x2160-30fps.gif);
     height: 100vh;
     background-size: cover;
     margin-top: 0px;
-  }
+  } */
   .navbar .navbar-nav .nav-item{
     /* padding: 10px; */
     margin-bottom: 550px;
@@ -234,7 +237,10 @@ font-size: large;
   background-color: #c7bbbb;
   width:100% ;
 }
+.dropdown-item{
 
+    color: aliceblue;
+}
 
 
 
