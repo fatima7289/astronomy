@@ -228,12 +228,23 @@ font-size: large;
   height: 10%;
   width: 100%;
   margin-left: 600px;
+  padding-top: 25px;
   color: #c7bbbb;
 }
-.astronomy img{
+.astroimg{
   background-color: #c7bbbb;
-  width:100% ;
+  width:1000px ;
+  height: 500px;
+  margin-left: 25%;
+  background-image: url(./img/e1870cfee5e05fe14712c92ae9bbadeb.jpg);
+  background-position: center;
 }
+/* .astrotext{
+  background-color: #c7bbbb;
+  width:1000px ;
+  height: 500px;
+  margin-left: 25%;
+} */
 
 
 
