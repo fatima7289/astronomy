@@ -4,10 +4,69 @@
   padding: 0;
 }
 .navbar-brand img{
-  width: 100px;
-  margin-top: 20px;
+  width: 150px;
 }
-@media  screen and (min-width:992px) {
+
+ #vd{
+  position: absolute;  
+  width: 100%;
+  right: 0;
+  bottom: 0;
+  z-index: 1;  
+ }
+ #main{
+  flex-direction: column; 
+  z-index: 100;
+  position: relative;
+ }
+ 
+
+
+
+
+
+
+
+ .navbar .navbar-nav .nav-link{
+  color: rgb(255, 255, 255);
+  font-style: italic;
+  font-weight: 700;
+  
+
+}
+.nav-link:hover{ 
+  border-bottom: 2px solid rgb(255, 47, 92);
+  color: rgb(255, 159, 159);
+
+}
+.dropdown:hover .dropdown-menu{
+  display: block; 
+  background-color: transparent;
+  color: rgb(255, 255, 255);
+  /* font-weight: 700; */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* @media  screen and (min-width:992px) {
   .navbar-brand img{
   width: 150px;
   margin-bottom : 30px;
@@ -21,38 +80,16 @@
   }
   .navbar .navbar-nav .nav-item{
     /* padding: 10px; */
-    margin-bottom: 550px;
+    /* margin-bottom: 550px;
     font-size: 20px;
     font-style: italic;
-    font-weight: 700;
-  }
+    font-weight: 700; 
+  } */
  
-
-}
-/* .navbar .container-fluid{
-  flex-direction: column;
-  background-image: url(./img/e1870cfee5e05fe14712c92ae9bbadeb.jpg);
-  height: 100vh;
-  background-size: cover;
-} */
-.navbar .navbar-nav .nav-link{
-  color: rgb(151, 144, 144);
-  
-  
-
-}
-.nav-link:hover{ 
-  border-bottom: 2px solid rgb(255, 47, 92);
-  color: rgb(255, 255, 255);
-
-}
-.dropdown:hover .dropdown-menu{
-  display: block; 
-  background-color: transparent;
-  color: rgb(151, 144, 144);
-  font-weight: 700;
-}
-.tx1{
+/* } */ 
+ 
+ 
+ .tx1{
     font-size: large;
     color:white;
     font-family: 'Courier New', Courier, monospace;
@@ -141,10 +178,10 @@ margin: 0px;
 .PLANETS {
   background-color: #c7bbbb;
 }
-/* .PLANETS h1{
+.PLANETS h1{
 color: #180a24;
 border: left;
-} */
+}
 .PLANETS h3{
   color: #180a24;
 
@@ -182,13 +219,13 @@ font-size: large;
 }
 .PLANETS H1{
     padding-left: 10px;
-    /* padding-top: 50px; */
+     padding-top: 50px; 
     border-left: 3px solid #180a24;
     margin-left: 90px;
     margin-top: 50px;
     height: 50px;
     float: left;
-}
+} 
 .b_img1{
   background-image: url(./img/e1870cfee5e05fe14712c92ae9bbadeb.jpg);
    width: 200px;
@@ -203,10 +240,10 @@ font-size: large;
     margin-left: 0px;
     margin-top: 35px;
 }
-/* .Hleft{
+ .Hleft{
     margin-left: 350PX;
-} */
-.btn{
+ } 
+ .btn{
     margin-left: 450px;
 }
 .col{
@@ -238,13 +275,13 @@ font-size: large;
   margin-left: 25%;
   background-image: url(./img/e1870cfee5e05fe14712c92ae9bbadeb.jpg);
   background-position: center;
-}
-/* .astrotext{
+}  
+ .astrotext{
   background-color: #c7bbbb;
   width:1000px ;
   height: 500px;
   margin-left: 25%;
-} */
+ } 
 
 
 
@@ -260,3 +297,4 @@ font-size: large;
 
 
 
+ 
