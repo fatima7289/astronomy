@@ -393,19 +393,26 @@ marquee {
   width: 100%;
   height: auto;
   background-color: #180a24;
+  /* background-color: #c7bbbb; */
+  /* flex-direction:row-reverse; */
+
+}
+#cards  {
+  float: left;
 }
 
 #OBSERVATIONS{
   width: 100%;
   height: auto;
   background-color: #180a24;
+  /* background-color: #c7bbbb; */
 }
 @import url("https://fonts.googleapis.com/css2?family=Baloo+2&display=swap");
 /* This pen */
 body {
 font-family: "Baloo 2", cursive;
 font-size: 16px;
-color: #fff;
+color: #080606;
 text-rendering: optimizeLegibility;
 font-weight: initial;
 } 
@@ -428,14 +435,17 @@ font-size: 2.5rem;
 /* Cards */
 .postcard {
 flex-wrap: wrap;
-display: flex;
+display: flex; 
 box-shadow: 0 4px 21px -12px rgba(0, 0, 0, 0.66);
 border-radius: 10px;
 margin: 0 0 2rem 0;
 overflow: hidden;
 position: relative;
 color: #fff;
+/* float: left; */
 }
+
+
 .postcard.dark {
 background-color: #18151f;
 }
@@ -495,6 +505,9 @@ font-size: 14px;
 margin: 20px 0 0 0;
 padding: 0;
 justify-content: center;
+}
+article {
+  margin-left: 20px;
 }
 .postcard .postcard__tagbox .tag__item {
 display: inline-block;
