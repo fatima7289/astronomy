@@ -405,6 +405,7 @@ marquee {
   width: 100%;
   height: auto;
   background-color: #180a24;
+  margin-top: 1
   /* background-color: #c7bbbb; */
 }
 @import url("https://fonts.googleapis.com/css2?family=Baloo+2&display=swap");
