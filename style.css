@@ -393,12 +393,6 @@ marquee {
   width: 100%;
   height: auto;
   background-color: #180a24;
-  /* background-color: #c7bbbb; */
-  /* flex-direction:row-reverse; */
-
-}
-#cards  {
-  float: left;
 }
 
 #OBSERVATIONS{
