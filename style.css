@@ -6,18 +6,22 @@
 
 header{
   display: flex;
+  height:auto
 }
 
 #vd{
   width: 100%;
+  
 }
 .navbar-brand img{
-  width: 150px
-}
+  width: 150px }
+   
+
 .navbar {
   position: absolute;
   width: 100%;
-}
+  
+} 
 .navbar .navbar-nav .nav-link{
   color: antiquewhite;
   font-weight: 600;
@@ -393,21 +397,29 @@ marquee {
   width: 100%;
   height: auto;
   background-color: #180a24;
+  
+  float: left;
+}
+
+#blue{
+  background-color: #fff;
+  
+
 }
 
 #OBSERVATIONS{
   width: 100%;
   height: auto;
   background-color: #180a24;
-  margin-top: 1
-  /* background-color: #c7bbbb; */
+  
+  
 }
 @import url("https://fonts.googleapis.com/css2?family=Baloo+2&display=swap");
 /* This pen */
 body {
 font-family: "Baloo 2", cursive;
 font-size: 16px;
-color: #080606;
+color: #ffffff;
 text-rendering: optimizeLegibility;
 font-weight: initial;
 } 
