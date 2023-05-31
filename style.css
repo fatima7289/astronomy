@@ -29,13 +29,13 @@
   font-weight: 600;
   transition: 0.5s;
 }
-.content h1 a{
+.content a{
   text-decoration: none;
   display: inline-block;
   color:#fff;
-  font-size: 24px;
+  font-size: 14px;
   border: 2px solid #fff;
-  padding: 14px 70px;
+  padding: 4px 30px;
   border-radius: 50px;
   margin-top: 20px;
 }
@@ -52,7 +52,7 @@
   width: 100%;
   top: 0;
   left: 0;
-  padding: 20px 8;
+  padding:20px  ;
   text-align: center;
   display: flex;
 
@@ -60,12 +60,14 @@
 } 
 .navbar .navbar-nav .nav-link{
   color: antiquewhite;
-  font-weight: 2000;
   font-family:'Courier New', Courier, monospace ;
   margin-left:  10px;
   transition: 0.5s;
   
 
+}
+.navbar .navbar-nav .nav-item{
+font-weight: 700;
 }
 
 .nav-link:hover {
