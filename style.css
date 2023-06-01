@@ -684,8 +684,6 @@ background-image: linear-gradient(80deg, rgba(189, 187, 73, 0.1), transparent 50
   line-height: 30px;
 }                        
 
-
-
 footer{
   background-color: #18151f;
   
@@ -703,24 +701,26 @@ footer{
 }
 #f-p{
   margin-top: 30px;
+  font-family: 'Courier New', Courier, monospace;
 }
 ul a{
   font-size: 20px;
   text-decoration: none;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family:'Courier New', Courier, monospace;
   text-align: center;
   align-items: center;
   color: #e1e5ea;
 }
 #box  li{
-  margin-top: 30px;
   list-style: none;
   text-align: left;
-  /* margin: 10px; */
-  /* font-size: 20px; */
+}
+#lp{
+  margin-left: -100px;
 }
 h3{
   margin-left: -150px;
+  font-family: 'Courier New', Courier, monospace;
 }
 
 #f-img{
