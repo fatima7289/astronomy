@@ -727,6 +727,12 @@ ul li a:hover{
   color: #fff;
   padding-left: 4px;
 }
+hr{
+  width: 95%;
+  border: 0;
+  border-bottom: 1px solid#ccc;
+  margin: 20px auto;
+}
 @media (max-width:740px) {
   .footer-col{
     width: 100%;
