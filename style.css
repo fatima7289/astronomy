@@ -75,9 +75,9 @@
   
 
 }
-.navbar .navbar-nav .nav-item{
-/* font-weight: 700; */
-}
+/* .navbar .navbar-nav .nav-item{
+font-weight: 700;
+} */
 
 .nav-link:hover {
   -webkit-text-stroke:2px #ffffff;
@@ -1439,3 +1439,9 @@ background-image: linear-gradient(80deg, rgba(189, 187, 73, 0.1), transparent 50
   margin-top: 50px;
   line-height: 30px;
 }                        
+/* latest developmnets in the field of astronommy  */
+.ldia{
+  background-color: #180a24;
+  color: #c7bbbb;
+  padding: 10px;
+}
