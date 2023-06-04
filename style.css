@@ -1509,3 +1509,33 @@ background-image: linear-gradient(80deg, rgba(189, 187, 73, 0.1), transparent 50
   color: #c7bbbb;
   padding: 10px;
 }
+/* galaxy */
+
+.galaxy{
+  margin-top: 50px;
+}
+#gimg1{
+  height: 500px;
+  width: 800px;
+  margin-top: 50px;
+}
+.ga{
+  background-color: #180a24;
+  color: #c7bbbb;
+}
+#toc{
+  color: #c7bbbb;
+  text-align: center;
+  margin-top: 350px;
+}
+.links ul li{
+list-style: none;
+}
+.links{
+  margin-top: 20px;
+}
+.links ul li a{
+  text-decoration: none;
+  padding: 10px;
+}
+/* observation page */
