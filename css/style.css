@@ -74,12 +74,15 @@
   color: antiquewhite;
   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   transition: 0.5s;
+  margin: 5px;
 }
 /* .navbar .navbar-nav .nav-item{
 font-weight: 700;
 } */
 .navbar .navbar-nav {
   margin-left: auto;
+  margin-top: 15px;
+  
 }
 
 .nav-link:hover {
