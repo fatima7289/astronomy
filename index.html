@@ -110,7 +110,7 @@
   </script>
     
   <script>
-    // Helper function to inject HTML content
+  
     function injectHTML(selector, html) {
       const element = document.querySelector(selector);
       if (element) {
@@ -118,7 +118,6 @@
       }
     }
 
-    // Load and inject the header
     const headerRequest = new XMLHttpRequest();
     headerRequest.open('GET', 'header.html', true);
     headerRequest.onreadystatechange = function () {
@@ -128,7 +127,7 @@
     };
     headerRequest.send();
 
-    // Load and inject the footer
+   
     const footerRequest = new XMLHttpRequest();
     footerRequest.open('GET', 'footer.html', true);
     footerRequest.onreadystatechange = function () {

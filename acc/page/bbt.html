@@ -4,57 +4,80 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Big Bang Theory Blog</title>
+  <title>Big Bang Theory</title>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css">
   <link rel="stylesheet" href="../../css/style.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
 </head>
+<style>
+body {
+      font-family: 'Arial', sans-serif;
+      background-color: #1c1f28;
 
-<body>
-  <div id="header-placeholder">
+    .article-img {
+      max-width: 100%;
+      margin-bottom: 20px;
+    }
 
-  </div>
+    .article-title {
+      font-size: 36px;
+      font-weight: bold;
+      margin-bottom: 20px;
+    }
 
-  <div class="container my-5">
-    <div class="row">
-      <div class="col-md-8">
-        <div class="card mb-4">
-          <img src="https://via.placeholder.com/800x400" class="card-img-top" alt="Blog Post Image">
-          <div class="card-body">
-            <h2 class="card-title">The Birth of the Universe</h2>
-            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur dignissim
-              bibendum leo, nec posuere velit rutrum eu. Vivamus vehicula odio non risus euismod sagittis. Sed
-              volutpat tellus sit amet tellus laoreet, non varius sem pellentesque.</p>
-            <a href="#" class="btn btn-primary">Read More</a>
-          </div>
-        </div>
-      </div>
+    .article-author {
+      font-size: 14px;
+      color: #888888;
+      margin-bottom: 20px;
+    }
 
-      <div class="col-md-4">
-        <div class="card mb-4">
-          <img src="https://via.placeholder.com/400x200" class="card-img-top" alt="Related Post Image">
-          <div class="card-body">
-            <h5 class="card-title">Related Post</h5>
-            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-            <a href="#" class="btn btn-primary">Read More</a>
-          </div>
-        </div>
-
-        <div class="card">
-          <div class="card-body">
-            <h5 class="card-title">Categories</h5>
-            <ul class="list-group">
-              <li class="list-group-item">Astronomy</li>
-              <li class="list-group-item">Cosmology</li>
-              <li class="list-group-item">Astrophysics</li>
-            </ul>
-          </div>
+    .article-content {
+      font-size: 16px;
+      line-height: 1.6;
+      margin-bottom: 40px;
+    }
+  }
+  </style>
+  
+  <body>
+    <div class="container my-5">
+      <div class="row">
+        <div class="col-md-8 offset-md-2">
+          <article>
+            <img src="../img/space-background-realistic-starry-night-cosmos-shining-stars-milky-way-stardust-color-galaxy.jpg" class="article-img" alt="Article Image">
+            <h1 class="article-title">Unveiling the Secrets of the Big Bang Theory</h1>
+            <p class="article-author">By John Doe | June 10, 2023</p>
+            <div class="article-content">
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor augue eu sagittis tempor. Aliquam
+                erat volutpat. Nulla rhoncus neque et neque sollicitudin aliquet. Nullam dignissim risus mi, ut lacinia
+                lorem porttitor nec. Quisque euismod dolor id nulla maximus, vitae dapibus nisi dapibus. Sed non metus
+                magna. Integer ac sapien ligula. Nullam eu iaculis justo.</p>
+              <p>Curabitur dignissim bibendum leo, nec posuere velit rutrum eu. Vivamus vehicula odio non risus euismod
+                sagittis. Sed volutpat tellus sit amet tellus laoreet, non varius sem pellentesque. Phasellus
+                sollicitudin elit eu ante elementum, nec gravida risus interdum. Nullam fermentum semper felis, eget
+                condimentum erat feugiat non. Nunc fringilla eleifend consectetur. Mauris in mauris ut massa rutrum
+                bibendum. Sed malesuada, nisi ac luctus suscipit, felis leo malesuada est, vel laoreet sapien mauris ut
+                lectus.</p>
+              <img src="../img/black-hole-background.jpg" class="article-img" alt="Image 1">
+              <p>Phasellus eget feugiat quam. Vestibulum vitae congue lacus. Morbi gravida arcu non tincidunt
+                efficitur. Fusce bibendum fringilla purus, id consectetur sem ullamcorper vel. Praesent viverra ante vel
+                volutpat eleifend. Mauris faucibus ex elit, et convallis tellus tempor a. Vestibulum ullamcorper
+                fermentum est. Aliquam consequat urna sed ipsum tristique luctus. Pellentesque tempor nulla sit amet
+                sagittis hendrerit. Integer et est vel nunc euismod tristique. Aliquam semper maximus lorem, a sagittis
+                elit efficitur nec.</p>
+              <img src="../img/3d-background-with-space-warp-tunnel-effect-design.jpg" class="article-img" alt="Image 2">
+              <p>Sed eleifend ipsum vel nibh congue, ac consequat neque accumsan. Aenean viverra quam ut lectus
+                bibendum, ac tempus mauris tempor. Curabitur malesuada turpis in risus viverra semper. Etiam eu erat
+                vestibulum, commodo sapien id, mollis justo. Mauris accumsan velit nec neque maximus bibendum. In vel
+                purus at purus interdum efficitur id vel lectus. Nam sed risus et leo scelerisque sollicitudin. Duis
+                auctor nulla ac tellus efficitur lobortis. Aliquam non mi vitae metus rhoncus tempor.</p>
+            </div>
+          </article>
         </div>
       </div>
     </div>
-  </div>
 
   <div id="footer-placeholder">
 
@@ -63,7 +86,7 @@
   integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
   </script>
   <script>
-    // Helper function to inject HTML content
+  
     function injectHTML(selector, html) {
       const element = document.querySelector(selector);
       if (element) {
@@ -71,7 +94,7 @@
       }
     }
 
-    // Load and inject the header
+ 
     const headerRequest = new XMLHttpRequest();
     headerRequest.open('GET', 'header.html', true);
     headerRequest.onreadystatechange = function () {
@@ -81,7 +104,7 @@
     };
     headerRequest.send();
 
-    // Load and inject the footer
+  
     const footerRequest = new XMLHttpRequest();
     footerRequest.open('GET', 'footer.html', true);
     footerRequest.onreadystatechange = function () {

@@ -25,7 +25,7 @@
 }
 .content h1{
   font-size: 120px;
-  font-family:monospace;
+  font-family: sans-serif;
   font-weight: 600;
   transition: 0.5s;
 }
@@ -122,7 +122,7 @@ font-weight: 700;
   .content h1{
     margin-top: 400px;
     font-size: 50px;
-    font-family:monospace;
+    font-family:sans-serif;
     font-weight: 600;
     transition: 0.5s;
   }
@@ -132,7 +132,7 @@ font-weight: 700;
 .tx1 {
   font-size: large;
   color: white;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: sans-serif;
   text-transform: uppercase;
   text-decoration: dotted;
 }
@@ -373,7 +373,7 @@ marquee {
 @import url("https://fonts.googleapis.com/css2?family=Baloo+2&display=swap");
 /* This pen */
 body {
-font-family: "Baloo 2", cursive;
+font-family: sans-serif;
 font-size: 16px;
 color: #ffffff;
 text-rendering: optimizeLegibility;
@@ -975,7 +975,7 @@ padding:0%  !important
 .tx1 {
   font-size: large;
   color: white;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: sans-serif;
   text-transform: uppercase;
   text-decoration: dotted;
 }
@@ -1205,7 +1205,7 @@ marquee {
 @import url("https://fonts.googleapis.com/css2?family=Baloo+2&display=swap");
 /* This pen */
 body {
-font-family: "Baloo 2", cursive;
+font-family: sans-serif;
 font-size: 16px;
 color: #fff;
 text-rendering: optimizeLegibility;
@@ -1529,4 +1529,6 @@ list-style: none;
   text-decoration: none;
   padding: 10px;
 }
-
+.card-body{
+  background-color: #00093c;
+}
