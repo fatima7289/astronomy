@@ -74,15 +74,12 @@
   color: antiquewhite;
   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   transition: 0.5s;
-  margin: 5px;
 }
 /* .navbar .navbar-nav .nav-item{
 font-weight: 700;
 } */
 .navbar .navbar-nav {
   margin-left: auto;
-  margin-top: 15px;
-  
 }
 
 .nav-link:hover {
@@ -132,24 +129,6 @@ font-weight: 700;
   
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .tx1 {
   font-size: large;
   color: white;
@@ -159,7 +138,7 @@ font-weight: 700;
 }
 
 
-/* .carousel-item img {
+.carousel-item img {
   height: 650px;
 }
 
@@ -365,7 +344,7 @@ marquee {
   width: 1000px;
   height: 500px;
   margin-left: 25%;
-} */
+}
 *{
   padding: 0%;
   margin: 0;
@@ -1550,7 +1529,4 @@ list-style: none;
   text-decoration: none;
   padding: 10px;
 }
-/* observation page */
-.OBSERVATION{
-  background-color: #180a24;
-}
+
