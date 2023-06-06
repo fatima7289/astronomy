@@ -3,6 +3,7 @@
   margin: 0;
   padding: 0;
 }
+                       /* header start */
 
 #lk{
   display: flex;
@@ -80,6 +81,7 @@ font-weight: 700;
 } */
 .navbar .navbar-nav {
   margin-left: auto;
+  margin-top: 15PX;
 }
 
 .nav-link:hover {
@@ -120,7 +122,7 @@ font-weight: 700;
     height: 100%;
   }
   .content h1{
-    margin-top: 400px;
+    margin-top: 450px;
     font-size: 50px;
     font-family:sans-serif;
     font-weight: 600;
@@ -128,6 +130,10 @@ font-weight: 700;
   }
   
 }
+
+
+                          /* header end  */
+
 
 .tx1 {
   font-size: large;
@@ -729,6 +735,10 @@ hr{
 #copy{
    text-align: center;
    justify-content: center;
+}
+
+.f-col iframe{
+  width: 100%;
 }
 @media (max-width:740px) {
   .footer-col{
