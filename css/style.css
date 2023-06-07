@@ -25,7 +25,7 @@
   
 }
 .content h1{
-  font-size: 120px;
+  font-size: 90px;
   font-family: sans-serif;
   font-weight: 600;
   transition: 0.5s;
@@ -76,12 +76,10 @@
   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   transition: 0.5s;
 }
-/* .navbar .navbar-nav .nav-item{
-font-weight: 700;
-} */
+
 .navbar .navbar-nav {
   margin-left: auto;
-  margin-top: 15PX;
+  /* margin-top: 15PX; */
 }
 
 .nav-link:hover {
@@ -105,22 +103,15 @@ font-weight: 700;
   color: antiquewhite;
 }
 
-
-
-
-
-
-
-
-
-
-
-
 @media (min-aspect-ratio:16/9){
 #vd{
   width: 100%;
   height: auto;
 }
+#main{
+  flex-direction: column;
+}
+
 }
 @media (max-aspect-ratio:16/9){
   #vd{
@@ -140,7 +131,9 @@ font-weight: 700;
 
                           /* header end  */
 
-
+#map{
+  width: 100%;
+}
 .tx1 {
   font-size: large;
   color: white;
@@ -680,7 +673,7 @@ background-image: linear-gradient(80deg, rgba(189, 187, 73, 0.1), transparent 50
   margin-top: 50px;
   line-height: 30px;
 }                        
-/* footer  */
+                                /* footer start  */
 
 footer{
   background: linear-gradient(to right, #00093c  ,#2d0b00) ;
@@ -763,7 +756,8 @@ hr{
   }
 
 }
-/* #gimg1{
+                          /* footer end  */
+  /* #gimg1{
   height: 100px;
   width: 800px;
   margin-top: 50px;
