@@ -100,7 +100,8 @@
   background-color: transparent;
 }
 #bt{
-  color: antiquewhite;
+  color: rgb(255, 255, 255);
+
 }
 
 @media (min-aspect-ratio:16/9){
