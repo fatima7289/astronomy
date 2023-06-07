@@ -1542,3 +1542,31 @@ list-style: none;
 .card-body{
   background-color: #00093c;
 }
+/* done by aleeza in bbt.html */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #1c1f28;
+
+.article-img {
+  max-width: 100%;
+  margin-bottom: 20px;
+}
+
+.article-title {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.article-author {
+  font-size: 14px;
+  color: #888888;
+  margin-bottom: 20px;
+}
+
+.article-content {
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 40px;
+}
+}
