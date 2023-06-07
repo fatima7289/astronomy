@@ -92,9 +92,15 @@ font-weight: 700;
 
 .dropdown:hover .dropdown-menu {
   display: block;
-  background-color: white;
-  color: rgb(0, 0, 0);
+  background: linear-gradient(to right, #00093c  ,#2d0b00);
+  
 } 
+.dropdown-menu .dropdown-item{
+  color: #fff;
+}
+.dropdown-menu .dropdown-item:hover{
+  background-color: transparent;
+}
 #bt{
   color: antiquewhite;
 }
@@ -724,7 +730,7 @@ ul li a{
 }
 ul li a:hover{
   color: #d3d3d3;
-  padding-left: 4px;
+  /* padding-left: 4px; */
 }
 hr{
   width: 95%;
