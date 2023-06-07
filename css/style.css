@@ -87,6 +87,26 @@
   color: rgb(255, 159, 159);
 
 }
+.dropdown:hover .dropdown-menu {
+  display: block;
+  animation: fadeInDown 0.3s ease-in-out;
+}
+
+.dropdown-menu a:hover {
+  background-color: #ffffff; 
+  color: #969494; 
+}
+
+@keyframes fadeInDown {
+  0% {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
 
 .dropdown:hover .dropdown-menu {
   display: block;
