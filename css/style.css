@@ -1377,4 +1377,39 @@ body {
   line-height: 1.6;
   margin-bottom: 40px;
 }
+               /* location observatries  */
+.map{
+  display: flex;
+  /* background-color:  #3d2237; */
 }
+
+.loca{
+  margin-left: auto;
+}
+
+.loca iframe{
+  height: 100%;
+  width: 500px;
+}
+.det h1{
+  margin-left: 100px;
+  margin-top: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.det h4{
+  margin-left: 140px;
+  margin-top: 30px;
+}
+.det p{
+  margin-left: 20px;
+  margin-top: 20px;
+}
+@media(max-width:555px){
+  .map{
+    display: inline;
+  }
+  .loca iframe{
+    height: 500px;
+  }
+}
+                   /* end    */
