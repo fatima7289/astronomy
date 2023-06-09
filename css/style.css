@@ -73,7 +73,7 @@
   
 } 
 .navbar .navbar-nav .nav-link{
-  color: antiquewhite;
+  color: antiquewhite;  
   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   transition: 0.5s;
 }
@@ -94,7 +94,7 @@
 }
 
 .dropdown-menu a:hover {
-  background-color: #ffffff; 
+  /* background-color: #ffffff;  */
   color: #969494; 
 }
 
@@ -1389,7 +1389,7 @@ body {
 
 .loca iframe{
   height: 100%;
-  width: 500px;
+  width: 600px;
 }
 .det h1{
   margin-left: 150px;
