@@ -1388,8 +1388,9 @@ body {
 }
 
 .loca iframe{
-  height: 100%;
+  height: 80%;
   width: 600px;
+  margin: 100px 20px ;
 }
 .det h1{
   margin-left: 150px;
@@ -1404,24 +1405,26 @@ body {
   margin-left: 20px;
   margin-top: 20px;
 }
-@media(max-width:825px){
+@media(max-width:825px){  
   .map{
-    display: inline;
-  }
-   .loca iframe{
-    width: 100%;
-    height: 100vh;
-  }
+    display: inline;}
+
+    .loca iframe{
+      height: 80%;
+      width: 600px;
+      margin: 100px 20px ;
+    }
+  
   
 } 
 @media(max-width:555px){
   .map{
-    display: inline;
-  }
-   .loca iframe{
-    width: 100%;
-    height: 100vh;
-  }
+    display: inline;}
+    .loca iframe{
+      height:300px ;
+      width: 90%;
+      margin: 10px 25px ;
+    }
 } 
 
 
