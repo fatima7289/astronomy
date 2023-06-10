@@ -1523,7 +1523,7 @@ background-image: linear-gradient(80deg, rgba(189, 187, 73, 0.1), transparent 50
 }
 #gimg1{
   height: 500px;
-  width: 800px;
+  width: 700px;
   margin-top: 50px;
 }
 .ga{
@@ -1532,8 +1532,11 @@ background-image: linear-gradient(80deg, rgba(189, 187, 73, 0.1), transparent 50
 }
 #toc{
   color: #c7bbbb;
-  text-align: center;
+  /* text-align: center; */
   margin-top: 350px;
+}
+#otp{
+  padding-left: 25px;
 }
 .links ul li{
 list-style: none;
