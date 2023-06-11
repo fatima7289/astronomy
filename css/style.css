@@ -25,42 +25,70 @@
   
 }
 .content h1{
+<<<<<<< HEAD
   font-size: 90px;
+=======
+  font-size: 120px;
+>>>>>>> parent of 470920d (fatima)
   font-family: sans-serif;
   font-weight: 600;
   transition: 0.5s;
 }
 .content p{
+<<<<<<< HEAD
   font-family:sans-serif;
   font-size: large;
   letter-spacing: 2px;
   font-weight: 400;
+=======
+  font-family:sans-serif
+>>>>>>> parent of 470920d (fatima)
 }
 .content a{
   text-decoration: none;
   display: inline-block;
   color:#fff;
+<<<<<<< HEAD
   font-size: 20px;
   border: 5px solid #fff;
+=======
+  font-size: 14px;
+  border: 2px solid #fff;
+>>>>>>> parent of 470920d (fatima)
   padding: 4px 30px;
   border-radius: 100px;
   margin-top: 20px;
 }
+<<<<<<< HEAD
 /* .content p:hover{
   font-size: 20px;
   -webkit-text-stroke:2px#fff;
    color: transparent;
 } */
+=======
+.content p:hover{
+  font-size: 20px;
+  -webkit-text-stroke:2px#fff;
+   color: transparent;
+}
+>>>>>>> parent of 470920d (fatima)
 .content h1:hover{
   -webkit-text-stroke:2px #fff ;
   color: transparent;
 }
 .content a:hover{
+<<<<<<< HEAD
   /* font-size: 10px; */
   -webkit-text-stroke:2px#fff;
    color: transparent;
 }
 
+=======
+  font-size: 20px;
+  -webkit-text-stroke:2px#fff;
+   color: transparent;
+}
+>>>>>>> parent of 470920d (fatima)
 .navbar-brand img{
   width: 150px }
    
@@ -76,11 +104,21 @@
   
 } 
 .navbar .navbar-nav .nav-link{
+<<<<<<< HEAD
   color: antiquewhite;  
   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   transition: 0.5s;
 }
 
+=======
+  color: antiquewhite;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  transition: 0.5s;
+}
+/* .navbar .navbar-nav .nav-item{
+font-weight: 700;
+} */
+>>>>>>> parent of 470920d (fatima)
 .navbar .navbar-nav {
   margin-left: auto;
   /* margin-top: 15PX; */
@@ -114,7 +152,11 @@
 
 .dropdown:hover .dropdown-menu {
   display: block;
+<<<<<<< HEAD
   background-color: #461a3b;
+=======
+  background: linear-gradient(to right, #00093c  ,#2d0b00);
+>>>>>>> parent of 470920d (fatima)
   
 } 
 .dropdown-menu .dropdown-item{
@@ -124,19 +166,40 @@
   background-color: transparent;
 }
 #bt{
+<<<<<<< HEAD
   color: rgb(255, 255, 255);
 
 }
 
+=======
+  color: antiquewhite;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+>>>>>>> parent of 470920d (fatima)
 @media (min-aspect-ratio:16/9){
 #vd{
   width: 100%;
   height: auto;
+<<<<<<< HEAD
 }
 #main{
   flex-direction: column;
 }
 
+=======
+}
+>>>>>>> parent of 470920d (fatima)
 }
 @media (max-aspect-ratio:16/9){
   #vd{
@@ -155,6 +218,10 @@
 
 
                           /* header end  */
+<<<<<<< HEAD
+=======
+
+>>>>>>> parent of 470920d (fatima)
 
 #map{
   width: 100%;
@@ -698,22 +765,37 @@ background-image: linear-gradient(80deg, rgba(189, 187, 73, 0.1), transparent 50
   margin-top: 50px;
   line-height: 30px;
 }                        
+<<<<<<< HEAD
                                 /* footer start  */
 
 footer{
   background-color: #3d2237 ;
+=======
+/* footer  */
+
+footer{
+  background: linear-gradient(to right, #00093c  ,#2d0b00) ;
+>>>>>>> parent of 470920d (fatima)
   font-family: sans-serif;
   display: flex;
   flex-wrap: wrap;
   margin: auto;
   padding: 60px 5%;  
 }
+<<<<<<< HEAD
 #f-img {
   width: 330px;
   height: 42px;
   margin-top: -1px;
 }
 ul {
+=======
+#f-img{
+  width: 200px;
+  height: 40px;
+}
+ul{
+>>>>>>> parent of 470920d (fatima)
   list-style: none;
 }
 .footer-col{
@@ -736,7 +818,10 @@ ul {
   height: 2px;
   width: 40px;
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> parent of 470920d (fatima)
 ul li:not(:last-child){
   margin-bottom: 8px;
 }
@@ -744,6 +829,7 @@ ul li a{
   display: block;
   font-size: 19px;
   text-transform: capitalize;
+<<<<<<< HEAD
   color:#ffffff;
 
 }
@@ -754,6 +840,14 @@ margin-left:-30px;
   color: #d3d3d3;
   padding-left: 4px;
 
+=======
+  color:#e1e5ea;
+
+}
+ul li a:hover{
+  color: #d3d3d3;
+  /* padding-left: 4px; */
+>>>>>>> parent of 470920d (fatima)
 }
 hr{
   width: 95%;
@@ -788,11 +882,179 @@ hr{
   /* margin-left: 50px; */
 }
 }
+<<<<<<< HEAD
 
+=======
+/* #gimg1{
+  height: 100px;
+  width: 800px;
+  margin-top: 50px;
+}
+.ga{
+  background-color: #180a24;
+  color: #c7bbbb;
+}
+#toc{
+  color: #c7bbbb;
+  text-align: center;
+  margin-top: 350px;
+} */
+>>>>>>> parent of 470920d (fatima)
 
                           /* footer end  */
   
 
+<<<<<<< HEAD
+=======
+}
+
+.nav-link:hover {
+  border-bottom: 2px solid rgb(255, 47, 92);
+  color: rgb(255, 159, 159);
+
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+  background-color: white;
+  color: rgb(0, 0, 0);
+} 
+#bt{
+  color: antiquewhite;
+}
+.Hm{
+  height: 400px;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+@media  screen and (min-width:992px){
+#main{
+  flex-direction: column;
+} */
+/*  */
+/* #vd{
+  /* height: 100%; */
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* * {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+.navbar{
+padding:0%  !important
+
+}
+
+.navbar-brand img {
+  width: 150px;
+  margin-top: -450px;
+}
+
+ #main {
+  background-image: url(./img/Copy\ of\ pexels-pixabay-856309-1920x1080-30fps.gif);
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+} 
+
+.navbar .navbar-nav .nav-link {
+  color: rgb(255, 255, 255);
+}
+.navbar-nav{
+  margin-top:-300px;
+}
+#bt{
+  margin-bottom:auto ;
+  margin-top: 10px;
+  color: antiquewhite;
+}
+@media  screen and (min-width:992px){
+  
+  .navbar-brand img {
+    width: 150px;
+    margin-top: auto;
+    margin-top: 30px;
+    
+  }
+ #main {
+  flex-direction: column;
+  background-image: url(./img/Space\ Video.gif);
+  width: 100%;
+  height: 100vh; 
+}
+.navbar .navbar-nav .nav-link {
+  color: rgb(255, 255, 255);
+  margin-top: -100px
+
+}
+
+
+
+
+}
+
+
+
+
+
+
+.nav-link:hover {
+  border-bottom: 2px solid rgb(255, 47, 92);
+  color: rgb(255, 159, 159);
+
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+  background-color: white;
+  color: rgb(0, 0, 0);
+} */
+
+>>>>>>> parent of 470920d (fatima)
 
 .tx1 {
   font-size: large;
@@ -947,7 +1209,11 @@ marquee {
 }
 
 .b_img1 {
+<<<<<<< HEAD
   background-image: url(./img/e1870cfee5e05fe14712c92ae9bbadeb.jpg);
+=======
+  background-image: url(../acc/img/02-02-23-Feature-1024x555.webp);
+>>>>>>> parent of 470920d (fatima)
   width: 200px;
   margin-left: 100px;
   margin-top: 55px;
@@ -1385,6 +1651,7 @@ body {
   line-height: 1.6;
   margin-bottom: 40px;
 }
+<<<<<<< HEAD
                /* location observatries  */
 .map{
   display: flex;
@@ -1438,3 +1705,6 @@ body {
 
 
                    /* end    */
+=======
+}
+>>>>>>> parent of 470920d (fatima)
