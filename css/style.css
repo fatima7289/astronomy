@@ -783,9 +783,7 @@ hr{
   .footer-col{
     width: 100%;
   }
-#f-img{
-  /* margin-left: 50px; */
-}
+
 }
 
                           /* footer end  */
@@ -1428,3 +1426,95 @@ body {
 
 
                    /* end    */
+/* planets */
+*::before{
+  box-sizing: border-box;
+}
+
+.card{
+  display: flex;
+  flex-direction: column;
+  flex-basis: 300px;
+  flex-shrink: 0;
+  flex-grow: 0;
+  max-width: 100%;
+  background-color:black;
+  box-shadow: 0 5px 10px 0 rgba(0,0,0,0.15);
+  border-radius: 10px;
+  overflow: hidden;
+  margin: 1rem;
+}
+.card2{
+  margin-top: 500px;
+  display: flex;
+  flex-direction: column;
+  flex-basis: 300px;
+  flex-shrink: 0;
+  flex-grow: 0;
+  width: 380px;
+  margin-left: 20px;
+  background-color:black;
+  box-shadow: 0 5px 10px 0 rgba(0,0,0,0.15);
+  border-radius: 10px;
+  overflow: hidden;
+  /* margin: 1rem; */
+}
+.card3{
+  margin-top: 1700px;
+  display: flex;
+  /* margin-left: 500px; */
+  flex-direction: column;
+  flex-basis: 300px;
+  flex-shrink: 0;
+  flex-grow: 0;
+  width: 380px;
+  margin-left: 20px;
+  background-color:black;
+  box-shadow: 0 5px 10px 0 rgba(0,0,0,0.15);
+  border-radius: 10px;
+  overflow: hidden;
+  /* margin: 1rem; */
+}
+.card-img{
+  padding-bottom: 56.25%;
+  position: relative;
+}
+.card-img img{
+  position: absolute;
+  width: 250px;
+  height: 250px;
+  right: 60px;
+  margin-top: 0;
+
+}
+
+.card-body{
+  padding: 1.5rem;
+color: white;
+}
+.car-title{
+  font-size: 1.25rem;
+  line-height: 1.33;
+font-weight: 700;
+color: white;
+}
+.card-intro{
+  margin-top: 0.75rem;
+  line-height: 1.5;
+}
+.container{
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center
+  
+}
+
+#col1{
+  display: inline-block;
+  }
