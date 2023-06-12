@@ -2,5 +2,3 @@
 https://fatima7289.github.io/astronomy/
 
 
-
-https://codepen.io/khadkamhn/pen/RxVKXP
