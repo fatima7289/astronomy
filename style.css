@@ -1,74 +1,48 @@
-
-
-
-*{
+* {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
   font-family: 'Poppins', sans-serif;
 }
-.navbar-brand img{
+
+.navbar-brand img {
   width: 150px;
 }
 
- #vd{
-  position: absolute;  
+#vd {
+  position: absolute;
   width: 100%;
   right: 0;
   bottom: 0;
-  z-index: 1;  
- }
- #main{
-  flex-direction: column; 
+  z-index: 1;
+}
+
+#main {
+  flex-direction: column;
   z-index: 100;
   position: relative;
- }
- 
+}
 
-
-
-
-
-
-
- .navbar .navbar-nav .nav-link{
+.navbar .navbar-nav .nav-link {
   color: rgb(255, 255, 255);
   /* font-style: italic;
   font-weight: 700;
    */
 
 }
-.nav-link:hover{ 
+
+.nav-link:hover {
   border-bottom: 2px solid rgb(255, 47, 92);
   color: rgb(255, 159, 159);
 
 }
-.dropdown:hover .dropdown-menu{
-  display: block; 
+
+.dropdown:hover .dropdown-menu {
+  display: block;
   background-color: white;
   color: rgb(0, 0, 0);
   /* font-weight: 700; */
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* @media  screen and (min-width:992px) {
   .navbar-brand img{
@@ -84,187 +58,207 @@
   }
   .navbar .navbar-nav .nav-item{
     /* padding: 10px; */
-    /* margin-bottom: 550px;
+/* margin-bottom: 550px;
     font-size: 20px;
     font-style: italic;
     font-weight: 700; 
   } */
- 
-/* } */ 
- 
- 
- .tx1{
-    font-size: large;
-    color:white;
-    font-family: 'Courier New', Courier, monospace;
-    text-transform: uppercase;
-    text-decoration: dotted;
+
+/* } */
+
+
+.tx1 {
+  font-size: large;
+  color: white;
+  font-family: 'Courier New', Courier, monospace;
+  text-transform: uppercase;
+  text-decoration: dotted;
 }
 
-.carousel-item img{
-    height: 650px;
- }  
-.bigbangtheory{ 
-    height: 400px;
-    width: 100%;
-   
-    
+.carousel-item img {
+  height: 650px;
 }
+
+.bigbangtheory {
+  height: 400px;
+  width: 100%;
+
+
+}
+
 .container {
-    position: relative;
-    width: 100%;
-  }
-  
-  .image {
-    display: block;
-    width: 600px;
-    height:500px;
-    margin-right: 0px;
-    margin-top: 100px;
-    
-  }
-  
-  .overlay1 {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background-color:transparent;
-    overflow: hidden;
-    width: 100%;
-    height: 0;
-    transition: .5s ease;
-  }
-  .overlay2 {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background-color:transparent;
-    overflow: hidden;
-    width: 100%;
-    height: 0;
-    transition: .5s ease;
-  }
-  .container:hover .overlay1 {
-    height: 100%;
-  }
-  .container:hover .overlay2 {
-    height: 100%;
-  }
-  
-  .text {
-    color: #c7bbbb;
-    font-size: 20px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    -webkit-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    text-align: center;
-   } 
- marquee{
-    font-size: 25px;
-    color:white;
-    margin-top: 10px;
-    padding-top: 12px;
-    background-color:#180a24;
-    font-family: sans-serif;
-    height: 60PX;
-    bottom: 60px;
+  position: relative;
+  width: 100%;
 }
-.evolution{
+
+.image {
+  display: block;
+  width: 600px;
+  height: 500px;
+  margin-right: 0px;
+  margin-top: 100px;
+
+}
+
+.overlay1 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: transparent;
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .5s ease;
+}
+
+.overlay2 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: transparent;
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .5s ease;
+}
+
+.container:hover .overlay1 {
+  height: 100%;
+}
+
+.container:hover .overlay2 {
+  height: 100%;
+}
+
+.text {
+  color: #c7bbbb;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+marquee {
+  font-size: 25px;
+  color: white;
+  margin-top: 10px;
+  padding-top: 12px;
+  background-color: #180a24;
+  font-family: sans-serif;
+  height: 60PX;
+  bottom: 60px;
+}
+
+.evolution {
   background-color: #c7bbbb;
-padding: 0px;
-margin: 0px;
+  padding: 0px;
+  margin: 0px;
 }
+
 .PLANETS {
   background-color: #c7bbbb;
 }
-.PLANETS h1{
-color: #180a24;
-border: left;
+
+.PLANETS h1 {
+  color: #180a24;
+  border: left;
 }
-.PLANETS h3{
+
+.PLANETS h3 {
   color: #180a24;
 
 }
-.carousel-control-prev{
+
+.carousel-control-prev {
   padding-top: 20px;
 }
 
 
 
-.col img{
-margin-top: 25px;
-    height: 300px ;
-    width: 450px ;
-border: 8px black;
-}
-.col h1{
-margin-top: 25px;
-
-}
-.col p{
-    font-size: 20px;
-    margin-top: 25px;
+.col img {
+  margin-top: 25px;
+  height: 300px;
+  width: 450px;
+  border: 8px black;
 }
 
-
-
-.col button{
-    width: 150px;
-margin-right: 10px ;
-margin-top: 25px;
-border: solid 3px;
-font-size: large;
+.col h1 {
+  margin-top: 25px;
 
 }
-.PLANETS H1{
-    padding-left: 10px;
-     padding-top: 50px; 
-    border-left: 3px solid #180a24;
-    margin-left: 90px;
-    margin-top: 50px;
-    height: 50px;
-    float: left;
-} 
-.b_img1{
+
+.col p {
+  font-size: 20px;
+  margin-top: 25px;
+}
+
+
+
+.col button {
+  width: 150px;
+  margin-right: 10px;
+  margin-top: 25px;
+  border: solid 3px;
+  font-size: large;
+
+}
+
+.PLANETS H1 {
+  padding-left: 10px;
+  padding-top: 50px;
+  border-left: 3px solid #180a24;
+  margin-left: 90px;
+  margin-top: 50px;
+  height: 50px;
+  float: left;
+}
+
+.b_img1 {
   background-image: url(./img/e1870cfee5e05fe14712c92ae9bbadeb.jpg);
-   width: 200px;
+  width: 200px;
   margin-left: 100px;
   margin-top: 55px;
-  height: 200px  ;
-  border-radius: 100px; 
-  
+  height: 200px;
+  border-radius: 100px;
+
 }
 
-.col h3{
-    margin-left: 0px;
-    margin-top: 35px;
+.col h3 {
+  margin-left: 0px;
+  margin-top: 35px;
 }
- .Hleft{
-    margin-left: 350PX;
- } 
- .btn{
-    margin-left: 450px;
+
+.Hleft {
+  margin-left: 350PX;
 }
-.col{
+
+.btn {
+  margin-left: 450px;
+}
+
+.col {
   width: 35%;
 }
-.astronomy{
+
+.astronomy {
   display: flex;
   width: 99%;
   height: 1000px;
-  margin-top: 10px ;
-  margin-left: 10px ;
-  margin-right: 10px ;
-  margin-bottom: 10px ;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
 
-  background-color:#180a24;
+  background-color: #180a24;
 }
-.astronomy h1{
+
+.astronomy h1 {
   margin: 50px;
   height: 10%;
   width: 100%;
@@ -272,33 +266,19 @@ font-size: large;
   padding-top: 25px;
   color: #c7bbbb;
 }
-.astroimg{
+
+.astroimg {
   background-color: #c7bbbb;
-  width:1000px ;
+  width: 1000px;
   height: 500px;
   margin-left: 25%;
   background-image: url(./img/e1870cfee5e05fe14712c92ae9bbadeb.jpg);
   background-position: center;
-}  
- .astrotext{
+}
+
+.astrotext {
   background-color: #c7bbbb;
-  width:1000px ;
+  width: 1000px;
   height: 500px;
   margin-left: 25%;
- } 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- 
+}
