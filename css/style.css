@@ -1386,7 +1386,7 @@ body {
                /* location observatries  */
 .map{
   display: flex;
-  /* background-color:  #3d2237; */
+
 }
 
 .loca{
@@ -1431,7 +1431,7 @@ body {
       width: 90%;
       margin: 10px 25px ;
     }
-} 
+}  
 #ik {
   display: flex;
   width: 100%;
@@ -1468,5 +1468,9 @@ body {
   margin-bottom: 40px;
 }
 
+.container{
+  width: 100%;
+}
 
-                   /* end    */
+
+
