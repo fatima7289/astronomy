@@ -254,16 +254,16 @@ marquee {
   margin: 0px;
 }
 
-.PLANETS {
+.S {
   background-color: #c7bbbb;
 }
 
-.PLANETS h1 {
+.S h1 {
   color: #180a24;
   border: left;
 }
 
-.PLANETS h3 {
+.S h3 {
   color: #180a24;
 
 }
@@ -302,7 +302,7 @@ marquee {
 
 }
 
-.PLANETS H1 {
+.S H1 {
   padding-left: 10px;
   padding-top: 50px;
   border-left: 3px solid #180a24;
@@ -783,9 +783,7 @@ hr{
   .footer-col{
     width: 100%;
   }
-#f-img{
-  /* margin-left: 50px; */
-}
+
 }
 
                           /* footer end  */
@@ -886,16 +884,16 @@ marquee {
   margin: 0px;
 }
 
-.PLANETS {
+.S {
   background-color: #c7bbbb;
 }
 
-.PLANETS h1 {
+.S h1 {
   color: #180a24;
   border: left;
 }
 
-.PLANETS h3 {
+.S h3 {
   color: #180a24;
 
 }
@@ -934,7 +932,7 @@ marquee {
 
 }
 
-.PLANETS H1 {
+.S H1 {
   padding-left: 10px;
   padding-top: 50px;
   border-left: 3px solid #180a24;
@@ -944,15 +942,7 @@ marquee {
   float: left;
 }
 
-.b_img1 {
-  background-image: url(./img/e1870cfee5e05fe14712c92ae9bbadeb.jpg);
-  width: 200px;
-  margin-left: 100px;
-  margin-top: 55px;
-  height: 200px;
-  border-radius: 100px;
 
-}
 
 .col h3 {
   margin-left: 0px;
