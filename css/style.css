@@ -82,8 +82,7 @@
 }
 
 .navbar .navbar-nav {
-  margin-left: auto;
-  /* margin-top: 15PX; */
+  background-color:#461a3b;
 }
 
 .nav-link:hover {
@@ -136,6 +135,9 @@
 #main{
   flex-direction: column;
 }
+.navbar .navbar-nav{
+  background-color: transparent;
+}
 
 }
 @media (max-aspect-ratio:16/9){
@@ -149,6 +151,9 @@
     font-family:sans-serif;
     font-weight: 600;
     transition: 0.5s;
+  }
+  .navbar .navbar-nav{
+    margin-left:auto;
   }
   
 }
