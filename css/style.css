@@ -705,45 +705,50 @@ background-image: linear-gradient(80deg, rgba(189, 187, 73, 0.1), transparent 50
 }                        
                                 /* footer start  */
 
-footer{
-  background-color: #3d2237 ;
-  font-family: sans-serif;
-  display: flex;
-  flex-wrap: wrap;
-  margin: auto;
+ footer{
+  background-color: #1f161d ;
   padding: 60px 5%;  
 }
-#f-img {
-  width: 330px;
-  height: 42px;
-  margin-top: -1px;
+.container-grid{
+  display: flex;
 }
+
 ul {
   list-style: none;
 }
-.footer-col{
-  width:20% ;
+
+.logo1{
+  width: 100px;
+  height: 100px;
+  margin-left: 100%;
 }
-.footer-col h4{
-  position: relative;
-  margin-bottom: 30px;
-  font-weight: 400;
-  font-size: 30px;
-  color: #bdbb49;
-  text-transform: capitalize;
+.footer-col1{
+  margin-top: 70px;
 }
-.footer-col h4::before{
-  content:'';
-  position:absolute;
-  left: 0;
-  bottom: -6px;
-  background-color: #009dff;
-  height: 2px;
-  width: 40px;
+.footer-col2{
+  margin-left: 30%;
+  margin-top: 30px;
+
 }
-ul li:not(:last-child){
-  margin-bottom: 8px;
+.footer-col2 p{
+  margin-top:30px ;
 }
+.footer-col3{
+  margin-left: 10%;
+}
+.footer-col3 h3{
+  margin-left: 25px;
+}
+.footer-col3 ul li{
+  margin-top: 20px;
+}
+.footer-inline ul li{
+  text-align: center;
+  display: inline-block;
+  margin: 5px;
+  margin-top: 30px;
+}
+
 ul li a{
   display: block;
   font-size: 19px;
@@ -755,40 +760,59 @@ ul li a{
 margin-left:-30px;
 }  
 .footer-col ul li a:hover{
-  color: #d3d3d3;
   padding-left: 4px;
 
 }
-hr{
-  width: 95%;
-  border: 0;
-  border-bottom: 1px solid#ccc;
-  margin: 20px auto;
+#foot{
+  width: 100%;
+  /* margin-top: 60px; */
 }
-#copy{
-   text-align: center;
-   justify-content: center;
-}
-
 .f-col iframe{
   width: 100%;
 }
 @media (max-width:740px) {
-  .footer-col{
-    width: 100%;
-    margin-bottom: 30px;
-    text-align: center;
+
+  .container-grid{
+    display: inline;
+  
+
   }
-  .footer-col h4::before{
-    all: unset;
+  .logo1{
+    width: 100px;
+    height: 100px;
+    margin-left:0;
+    
+  
   }
+  
+  .footer-col2{
+    margin-left: 0;
+    margin-top: 70px;
+  
+  }
+  .footer-col2 h3{
+    margin-left:0;
+  }
+  .footer-col2 p{
+    margin-top:30px ;
+  }
+  .footer-col3{
+    margin-top: 50px;
+    margin-left:0;
+  }
+  .footer-col3 h3{
+    margin-left: 25px;
+  }
+  .footer-inline ul li{
+    display: inline;
+    text-align: left;
+  }
+
+
 }
 
 @media(max-width:555px){
-  .footer-col{
-    width: 100%;
-  }
-
+  
 }
 
                           /* footer end  */
