@@ -226,7 +226,7 @@
 }
 
 .text {
-  color: #c7bbbb;
+  color: white;
   font-size: 20px;
   position: absolute;
   top: 50%;
@@ -249,13 +249,13 @@ marquee {
 }
 
 .evolution {
-  background-color: #c7bbbb;
+  background-color: white;
   padding: 0px;
   margin: 0px;
 }
 
 .S {
-  background-color: #c7bbbb;
+  background-color: white;
 }
 
 .S h1 {
@@ -348,7 +348,7 @@ marquee {
   margin-right: 10px;
   margin-bottom: 10px;
 
-  background-color: #180a24;
+  background-color: #110f16;
 }
 
 .astronomy h1 {
@@ -357,11 +357,11 @@ marquee {
   width: 100%;
   margin-left: 600px;
   padding-top: 25px;
-  color: #c7bbbb;
+  color: white;
 }
 
 .astroimg {
-  background-color: #c7bbbb;
+  background-color: white;
   width: 1000px;
   height: 500px;
   margin-left: 25%;
@@ -370,7 +370,7 @@ marquee {
 }
 
 .astrotext {
-  background-color: #c7bbbb;
+  background-color: white;
   width: 1000px;
   height: 500px;
   margin-left: 25%;
@@ -382,7 +382,7 @@ marquee {
 #cards{
   width: 100%;
   height: auto;
-  background-color: #180a24;
+  background-color: #110f16;
   
   float: left;
 }
@@ -396,7 +396,7 @@ marquee {
 #OBSERVATIONS{
   width: 100%;
   height: auto;
-  background-color: #180a24;
+  background-color: #110f16;
   
   
 }
@@ -856,7 +856,7 @@ hr{
 }
 
 .text {
-  color: #c7bbbb;
+  color: white;
   font-size: 20px;
   position: absolute;
   top: 50%;
@@ -872,20 +872,20 @@ marquee {
   color: white;
   margin-top: 10px;
   padding-top: 12px;
-  background-color: #180a24;
+  background-color: #110f16;
   font-family: sans-serif;
   height: 60PX;
   bottom: 60px;
 }
 
 .evolution {
-  background-color: #c7bbbb;
+  background-color: white;
   padding: 0px;
   margin: 0px;
 }
 
 .S {
-  background-color: #c7bbbb;
+  background-color: white;
 }
 
 .S h1 {
@@ -970,7 +970,7 @@ marquee {
   margin-right: 10px;
   margin-bottom: 10px;
 
-  background-color: #180a24;
+  background-color: #110f16;
 }
 
 .astronomy h1 {
@@ -979,11 +979,11 @@ marquee {
   width: 100%;
   margin-left: 600px;
   padding-top: 25px;
-  color: #c7bbbb;
+  color: white;
 }
 
 .astroimg {
-  background-color: #c7bbbb;
+  background-color: white;
   width: 1000px;
   height: 500px;
   margin-left: 25%;
@@ -992,7 +992,7 @@ marquee {
 }
 
 .astrotext {
-  background-color: #c7bbbb;
+  background-color: white;
   width: 1000px;
   height: 500px;
   margin-left: 25%;
@@ -1004,13 +1004,13 @@ marquee {
 #cards{
   width: 100%;
   height: auto;
-  background-color: #c7bbbb;
+  background-color: white;
 }
 
 #OBSERVATIONS{
   width: 100%;
   height: auto;
-  background-color: #c7bbbb;
+  background-color: white;
 }
 @import url("https://fonts.googleapis.com/css2?family=Baloo+2&display=swap");
 /* This pen */
@@ -1306,8 +1306,8 @@ background-image: linear-gradient(80deg, rgba(189, 187, 73, 0.1), transparent 50
 }                        
 /* latest developmnets in the field of astronommy  */
 .ldia{
-  background-color: #180a24;
-  color: #c7bbbb;
+  background-color: #110f16;
+  color: white;
   padding: 10px;
 }
 /* galaxy */
@@ -1321,11 +1321,11 @@ background-image: linear-gradient(80deg, rgba(189, 187, 73, 0.1), transparent 50
   margin-top: 50px;
 }
 .ga{
-  background-color: #180a24;
-  color: #c7bbbb;
+  background-color: #110f16;
+  color: white;
 }
 #toc{
-  color: #c7bbbb;
+  color: white;
   /* text-align: center; */
   margin-top: 350px;
 }
@@ -1502,19 +1502,19 @@ color: white;
   margin-top: 0.75rem;
   line-height: 1.5;
 }
-.container{
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center
-  
-}
+
 
 #col1{
-  display: inline-block;/
+  display: inline-block;
   }
+  /* planets */
+#planets-card{
+  margin-left: 49px;
+  margin-top: 20px;
+  float: left;
+}
+a{
+  list-style: none;
+  text-decoration: none;
+  color: white;
+}
