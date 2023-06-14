@@ -1405,33 +1405,33 @@ body {
 }
                /* location observatries  */
 .map{
-  
+  display: flex;
 
 }
 
 .loca{
-  /* margin-left: auto;
-  float: left; */
+   margin-left: auto; 
+  float: left; 
 }
 
 .loca iframe{
-  /* height: 80%;
+   height: 80%;
   width: 600px;
-  margin: 100px 20px ; */
+  margin: 100px 20px ; 
 }
 .det h1{
-  /* margin-left: 150px;
-  margin-top: 20px; */
+   margin-left: 150px;
+  margin-top: 20px; 
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-/* .det h4{
+ .det h4{
   margin-left: 160px;
   margin-top: 30px;
 }
 .det p{
   margin-left: 20px;
   margin-top: 20px;
-} */
+} 
 @media(max-width:825px){  
   .map{
     display: inline;}
