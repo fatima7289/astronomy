@@ -118,6 +118,7 @@
 } 
 .dropdown-menu .dropdown-item{
   color: #fff;
+  font-size: 80;
 }
 .dropdown-menu .dropdown-item:hover{
   background-color: transparent;
