@@ -1506,3 +1506,9 @@ a{
   text-decoration: none;
   color: white;
 }
+
+/* registeration page */
+#registeration{
+  text-align: center;
+  margin-top: 50px;
+}

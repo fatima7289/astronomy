@@ -1,195 +1,285 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <title>Atronomy Admin Panel</title>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css">
   <!-- <link rel="stylesheet" href="./css/style.css"> -->
   <style>
     body {
-        background-color: #1c1f28;
+      background-color: #1c1f28;
       color: #fff;
       font-family: 'Arial', sans-serif;
-        }
+    }
 
-        .container {
-        margin-top: 30px;
-        }
+    .container {
+      margin-top: 30px;
+    }
 
-        .card {
-        background-color: transparent;
-        border: none;
-        box-shadow: none;
-        color: #fff;
+    .card {
+      background-color: transparent;
+      border: none;
+      box-shadow: none;
+      color: #fff;
 
-        }
+    }
 
-        .card-header {
-        background-color: transparent;
-        border-bottom: none;
-        color: #fff;
-        font-size: 2rem;
-        text-align: center;
-        }
+    .card-header {
+      background-color: transparent;
+      border-bottom: none;
+      color: #fff;
+      font-size: 2rem;
+      text-align: center;
+    }
 
-        .card-body {
-        padding: 20px;
-        background-color: #4b1839;
-        }
+    .card-body {
+      padding: 20px;
+      background-color: #4b1839;
+    }
 
-        .table {
-        background-color: #4b1839;
-        color: #fff;
-        }
+    .table {
+      background-color: #4b1839;
+      color: #fff;
+    }
 
-        .table th,
-        .table td {
-        border-color: #444;
-        
-        }
+    .table th,
+    .table td {
+      border-color: #444;
 
-        .btn-primary {
-        background: linear-gradient(45deg, #1c1f28, #180a24);
-        border-color: #1c1f28;
-        
-        }
+    }
 
-        /* .btn-primary:hover {
+    .btn-primary {
+      background: linear-gradient(45deg, #1c1f28, #180a24);
+      border-color: #1c1f28;
+
+    }
+
+    /* .btn-primary:hover {
         background-color: ;
         border-color: ;
         } */
 
-        .btn-danger {
-        background: linear-gradient(45deg, #c20d0d, #83090b);
-        }
+    .btn-danger {
+      background: linear-gradient(45deg, #c20d0d, #83090b);
+    }
 
-        .btn-danger:hover {
-        border-color: #ff0000;
-        }
+    .btn-danger:hover {
+      border-color: #ff0000;
+    }
 
-        /* .floating-animation {
+    /* .floating-animation {
         animation: floating 4s ease-in-out infinite;
 
         } */
-        .GC{
-        color: #fff !important;
-        }
-                                   /* footer start  */
+    .GC {
+      color: #fff !important;
+    }
 
- footer{
-  background-color: #1f161d ;
-  padding: 60px 5%;  
-}
-.container-grid{
-  display: flex;
-}
+    /* footer start  */
 
-ul {
-  list-style: none;
-}
+    footer {
+      background-color: #1f161d;
+      padding: 60px 5%;
+    }
 
-.logo1{
-  width: 100px;
-  height: 100px;
-  margin-left: 100%;
-}
-.footer-col1{
-  margin-top: 70px;
-}
-.footer-col2{
-  margin-left: 30%;
-  margin-top: 30px;
+    .container-grid {
+      display: flex;
+    }
 
-}
-.footer-col2 p{
-  margin-top:30px ;
-}
-.footer-col3{
-  margin-left: 10%;
-}
-.footer-col3 h3{
-  margin-left: 25px;
-}
-.footer-col3 ul li{
-  margin-top: 20px;
-}
-.footer-inline ul li{
-  text-align: center;
-  display: inline-block;
-  margin: 5px;
-  margin-top: 30px;
-}
+    ul {
+      list-style: none;
+    }
 
-ul li a{
-  display: block;
-  font-size: 19px;
-  text-transform: capitalize;
-  color:#ffffff;
+    .logo1 {
+      width: 100px;
+      height: 100px;
+      margin-left: 100%;
+    }
 
-}
-.footer-col ul{
-margin-left:-30px;
-}  
-.footer-col ul li a:hover{
-  padding-left: 4px;
+    .footer-col1 {
+      margin-top: 70px;
+    }
 
-}
-#foot{
-  width: 100%;
-  /* margin-top: 60px; */
-}
-.f-col iframe{
-  width: 100%;
-}
-@media (max-width:740px) {
+    .footer-col2 {
+      margin-left: 30%;
+      margin-top: 30px;
 
-  .container-grid{
-    display: inline;
-  
+    }
 
-  }
-  .logo1{
-    width: 100px;
-    height: 100px;
-    margin-left:0;
-    
-  
-  }
-  
-  .footer-col2{
-    margin-left: 0;
-    margin-top: 70px;
-  
-  }
-  .footer-col2 h3{
-    margin-left:0;
-  }
-  .footer-col2 p{
-    margin-top:30px ;
-  }
-  .footer-col3{
-    margin-top: 50px;
-    margin-left:0;
-  }
-  .footer-col3 h3{
-    margin-left: 25px;
-  }
-  .footer-inline ul li{
-    display: inline;
-    text-align: left;
-  }
+    .footer-col2 p {
+      margin-top: 30px;
+    }
+
+    .footer-col3 {
+      margin-left: 10%;
+    }
+
+    .footer-col3 h3 {
+      margin-left: 25px;
+    }
+
+    .footer-col3 ul li {
+      margin-top: 20px;
+    }
+
+    .footer-inline ul li {
+      text-align: center;
+      display: inline-block;
+      margin: 5px;
+      margin-top: 30px;
+    }
+
+    ul li a {
+      display: block;
+      font-size: 19px;
+      text-transform: capitalize;
+      color: #ffffff;
+
+    }
+
+    .footer-col ul {
+      margin-left: -30px;
+    }
+
+    .footer-col ul li a:hover {
+      padding-left: 4px;
+
+    }
+
+    #foot {
+      width: 100%;
+      /* margin-top: 60px; */
+    }
+
+    .f-col iframe {
+      width: 100%;
+    }
+
+    @media (max-width:740px) {
+
+      .container-grid {
+        display: inline;
 
 
-}
+      }
 
-@media(max-width:555px){
-  
-}
+      .logo1 {
+        width: 100px;
+        height: 100px;
+        margin-left: 0;
 
-                          /* footer end  */
 
+      }
+
+      .footer-col2 {
+        margin-left: 0;
+        margin-top: 70px;
+
+      }
+
+      .footer-col2 h3 {
+        margin-left: 0;
+      }
+
+      .footer-col2 p {
+        margin-top: 30px;
+      }
+
+      .footer-col3 {
+        margin-top: 50px;
+        margin-left: 0;
+      }
+
+      .footer-col3 h3 {
+        margin-left: 25px;
+      }
+
+      .footer-inline ul li {
+        display: inline;
+        text-align: left;
+      }
+
+
+    }
+
+    @media(max-width:555px) {}
+
+    /* footer end  */
   </style>
 </head>
+
 <body>
+  <header>
+
+    <!-- place navbar here -->
+    <div id="ik">
+      <!-- <video autoplay muted loop plays-inline id="vd">
+        <source src="../img/pexels-pixabay-856309-1920x1080-30fps.mp4">
+      </video> -->
+      <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+        <div class="container-fluid" id="main">
+          <a class="navbar-brand" href="#"><img src="../img/LOGO FOR DARK-8.png" alt=""></a>
+          <button class="navbar-toggler" id="bt" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="../../index.html">HOME</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./bbt.html">BIG BANG THEORY </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./evolutionofearth.html">EVOLUTION OF EARTH </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./galaxies.html"> GALAXIES </a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  PLANETS
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="earth.html">EARTH </a></li>
+                  <li><a class="dropdown-item" href="saturn.html">SATURN</a></li>
+                  <li><a class="dropdown-item" href="mars.html">MARS</a></li>
+                  <li><a class="dropdown-item" href="jupiter.html">JUPITER</a></li>
+                  <li><a class="dropdown-item" href="neptune.html">NEPTUNE</a></li>
+                  <li><a class="dropdown-item" href="mercurry.html">MERCURY</a></li>
+                  <li><a class="dropdown-item" href="venus.html">VENUS</a></li>
+                  <li><a class="dropdown-item" href="uranus.html">URANUS</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  C0NSTELLATION
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="constellation.html">HOW IT IS FORMED</a></li>
+                  <li><a class="dropdown-item" href="constellation.html">VARIOUS CONSTELLATION</a></li>
+                </ul>
+              <li class="nav-item">
+                <a class="nav-link" href="latestdevelopment.html">LATEST DEVELOPMENT</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="observation.html">OBSERVATION </a>
+              </li>
+          </div>
+        </div>
+      </nav>
+      <!-- <div class="content">
+        <h1>ASTRONOMY</h1>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod velit <br> vel sit corrupti optio, error aliquid
+          dolore tempora ipsam odio laborum dolores, aut provident laboriosam odit quas, labore nemo ea!</p>
+          <--- <a href="#">explore</a> -->
+    </div>
+    </div>
+  </header>
   <div class="container">
     <div class="row">
       <div class="col-lg-8 offset-lg-2">
@@ -198,57 +288,7 @@ margin-left:-30px;
             <h1>Astronomy Admin Panel</h1>
           </div>
           <div class="card-body">
-            <h2>Article Submissions</h2>
-            <table class="table table-striped table-bordered">
-              <thead>
-                <tr>
-                  <th>Article ID</th>
-                  <th>Title</th>
-                  <th>Author</th>
-                  <th>Status</th>
-                  <th>Actions</th>
-                </tr>
-              </thead>
-              <tbody>
-                <div ><tr>
-                    <td class="GC">1</td>
-                    <td class="GC">The Wonders of the Milky Way</td>
-                    <td class="GC">John Doe</td>
-                    <td class="GC">Pending</td>
-                    <td>
-                        <button class="btn btn-primary twinkle-animation" onclick="approveArticle(1)">Approve</button>
-                        <button class="btn btn-danger twinkle-animation" onclick="rejectArticle(1)">Reject</button>
-                    </td>
-                  </tr></div>
-                <tr>
-                  <td>2</td>
-                  <td>Journey to Mars</td>
-                  <td>Jane Smith</td>
-                  <td>Approved</td>
-                  <td>
-                    <button class="btn btn-primary twinkle-animation" onclick="unpublishArticle(2)">Unpublish</button>
-                  </td>
-                </tr>
-                <tr>
-                    <td class="GC">3</td>
-                    <td class="GC">Myths about Saturn</td>
-                    <td class="GC">Adam Joy</td>
-                    <td class="GC">Approved</td>
-                    <td>
-                      <button class="btn btn-primary twinkle-animation" onclick="unpublishArticle(2)">Unpublish</button>
-                    </td>
-                  </tr>
-                  <td>4</td>
-                  <td>The Mysteries of Astronomy</td>
-                  <td>Briyan Smith</td>
-                  <td>Pending</td>
-                  <td>
-                      <button class="btn btn-primary twinkle-animation" onclick="approveArticle(1)">Approve</button>
-                      <button class="btn btn-danger twinkle-animation" onclick="rejectArticle(1)">Reject</button>
-                  </td>
-                </tr>
-              </tbody>
-            </table>
+
 
             <h2>Add New Article</h2>
             <form>
@@ -292,7 +332,8 @@ margin-left:-30px;
     }
   </script>
 
-<footer>
+  </main>
+  <footer>
     <div class="container">
       <div class="container-grid">
         <div class="footer-col1">
@@ -300,10 +341,11 @@ margin-left:-30px;
         </div>
         <div class="footer-col2">
           <h3>Explore the Universe</h3>
-          <p>Embark on a cosmic journey through space and time. Discover the wonders of the universe, from distant galaxies to breathtaking nebulae.</p>
+          <p>Embark on a cosmic journey through space and time. Discover the wonders of the universe, from distant
+            galaxies to breathtaking nebulae.</p>
         </div>
         <div class="footer-col3">
-          <h3 >Contact Us</h3>
+          <h3>Contact Us</h3>
           <ul>
             <li><i class="fas fa-envelope me-2"></i><a href="#">astronomy.com</a></li>
             <li><i class="fas fa-phone me-2"></i><a href="#">123-456-7890</a></li>
@@ -312,22 +354,23 @@ margin-left:-30px;
         </div>
       </div>
       <hr id="foot">
-        <div class="footer-inline">
-          <ul>
-            <li><a href="./index.html">Home</a></li>
-            <li><a href="./acc/page/bbt.html">Big Bang Theory</a></li>
-            <li><a href="./acc/page/evolutionofearth.html">Evolution of Earth</a></li>
-            <li><a href="./acc/page/galaxies.html">Galaxies</a></li>
-            <li><a href="./acc/page/planets.html">Planets</a></li>
-            <li><a href="./acc/page/constellation.html">Constellations</a></li>
-            <li><a href="./acc/page/comets.html">Comets</a></li>
-            <li><a href="./acc/page/latestdevelopment.html">Latest Development</a></li>
-            <li><a href="./acc/page/observation.html">Observations</a></li>
-  
-          </ul>
-        </div>
+      <div class="footer-inline">
+        <ul>
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="./acc/page/bbt.html">Big Bang Theory</a></li>
+          <li><a href="./acc/page/evolutionofearth.html">Evolution of Earth</a></li>
+          <li><a href="./acc/page/galaxies.html">Galaxies</a></li>
+          <li><a href="./acc/page/planets.html">Planets</a></li>
+          <li><a href="./acc/page/constellation.html">Constellations</a></li>
+          <li><a href="./acc/page/comets.html">Comets</a></li>
+          <li><a href="./acc/page/latestdevelopment.html">Latest Development</a></li>
+          <li><a href="./acc/page/observation.html">Observations</a></li>
+
+        </ul>
       </div>
-  
+    </div>
+
   </footer>
 </body>
+
 </html>
